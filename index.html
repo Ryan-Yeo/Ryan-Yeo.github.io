@@ -74,7 +74,7 @@
                 <form>
 
                     <img src="https://ryan-yeo.github.io/images/Ryan.jpg" style="width:200px; height:240px;"/><br>
-                    Name: <input type="text" name="aName" value="Ryan Yeo Zhi Cong" size="20" /><br>
+                    Name: <input type="text"  readonly class="form-control-plaintext" value="Ryan Yeo Zhi Cong"  /><br>
                     Relationship status: 
                     <input name="relationship" type="radio" value="s" checked />Single 
                     <input name="relationship" type="radio" value="t" />Taken <br>
@@ -83,8 +83,9 @@
                     <input name="fruit[]" type="checkbox" value="p" /> Pear
                     <input name="fruit[]" type="checkbox" value="w" checked />Watermelon<br>
                     Bio: <br>
-                    <textarea name="bio" rows="4" cols="45">Hi, I am Ryan, a 2nd year SCIS student in SMU. I love watching football and F1.
-                    </textarea>
+                    <!-- <textarea name="bio" rows="4" cols="45">Hi, I am Ryan, a 2nd year SCIS student in SMU. I love watching football and F1.
+                    </textarea> -->
+                    <textarea class="form-control"rows="3">Hi, I am Ryan, a 2nd year SCIS student in SMU. I love watching football and F1.</textarea>
                 </form>
             
             </div>
